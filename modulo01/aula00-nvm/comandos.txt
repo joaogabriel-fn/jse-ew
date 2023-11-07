@@ -1,0 +1,13 @@
+nvm install 20 - instala a versão 19
+nvm install --lts -> instala a versão long-term support (versão recomendada)
+nvm list -> lista as versões instaladas na máquina
+nvm use 18 -> use a 18 que ja está instalado na minha máquina
+nvm alias default 18 -> define a versão padrão do Node.js para ser a 18
+
+Uma forma de informar qual versão o projeto utiliza é criar um arquivo nvmrc, que irá armazenar a versão desejada
+
+Para criar o arquivo de forma dinâmica, a fim de evitar escrever versões na mão, pode-se utilizar a seguinte linha de comando
+
+node -v > .nvmrc
+
+nvm use -> irá buscar o arquivo .nvmrc para instalar a versão definida para o projeto
