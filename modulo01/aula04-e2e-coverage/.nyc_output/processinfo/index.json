@@ -1,0 +1,1 @@
+{"processes":{"055fbb38-0b54-4fdc-842f-367ace91614f":{"parent":"0af2117f-b603-467f-a4b4-ed399ef6c3ad","children":[]},"0af2117f-b603-467f-a4b4-ed399ef6c3ad":{"parent":null,"children":["055fbb38-0b54-4fdc-842f-367ace91614f"]}},"files":{"/home/whysk4s/workspace/jse-ew/modulo01/aula04-e2e-coverage/src/api.js":["055fbb38-0b54-4fdc-842f-367ace91614f"]},"externalIds":{}}

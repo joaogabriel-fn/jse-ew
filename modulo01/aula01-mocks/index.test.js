@@ -2,6 +2,7 @@ const { error } = require('./src/constants');
 const File = require('./src/file')
 const assert = require('assert')
 
+// IFEE, criada com intuito de usar o await
 ;(async () => {
 
   // Variáveis criadas neste bloco só são válidas durante sua execução
